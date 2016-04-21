@@ -1,0 +1,282 @@
+# Logfile created on 2016-04-21 01:59:57 +0300 by logger.rb/47272
+E, [2016-04-21T02:00:13.745551 #21595] ERROR -- : undefined local variable or method `logger' for #<Bot:0x000000025e0040> (NameError)
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:6:in `initialize'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:15:in `new'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:15:in `<top (required)>'
+-e:1:in `load'
+-e:1:in `<main>'
+E, [2016-04-21T02:01:34.486280 #21884] ERROR -- : undefined local variable or method `logger' for #<Bot:0x00000002c6a9d8> (NameError)
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:6:in `initialize'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:15:in `new'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:15:in `<top (required)>'
+-e:1:in `load'
+-e:1:in `<main>'
+I, [2016-04-21T02:02:16.403979 #22041]  INFO -- : Bot started
+D, [2016-04-21T02:02:41.965908 #22041] DEBUG -- : #<Telegram::Bot::Types::InlineQuery:0x000000023ab1a8 @id="236833526484311442", @from=#<Telegram::Bot::Types::User:0x000000023a9a38 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @query="", @offset="", @location=nil>
+D, [2016-04-21T02:02:44.221236 #22041] DEBUG -- : #<Telegram::Bot::Types::InlineQuery:0x000000023c9220 @id="236833525513768521", @from=#<Telegram::Bot::Types::User:0x000000023c91a8 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @query="1", @offset="", @location=nil>
+D, [2016-04-21T02:02:45.205107 #22041] DEBUG -- : #<Telegram::Bot::Types::InlineQuery:0x000000010bcf10 @id="236833524774111677", @from=#<Telegram::Bot::Types::User:0x000000010bce70 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @query="", @offset="", @location=nil>
+D, [2016-04-21T02:02:46.762331 #22041] DEBUG -- : #<Telegram::Bot::Types::InlineQuery:0x00000000efa038 @id="236833524988747070", @from=#<Telegram::Bot::Types::User:0x00000000ef9f20 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @query="", @offset="", @location=nil>
+D, [2016-04-21T02:02:47.573502 #22041] DEBUG -- : #<Telegram::Bot::Types::InlineQuery:0x00000000ed4ce8 @id="236833526008255517", @from=#<Telegram::Bot::Types::User:0x00000000ed4ab8 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @query="", @offset="", @location=nil>
+D, [2016-04-21T02:02:48.628447 #22041] DEBUG -- : #<Telegram::Bot::Types::InlineQuery:0x000000023a91f0 @id="236833525345745715", @from=#<Telegram::Bot::Types::User:0x000000023a9178 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @query="1", @offset="", @location=nil>
+D, [2016-04-21T02:02:57.409537 #22041] DEBUG -- : #<Telegram::Bot::Types::Message:0x00000002358548 @message_id=5, @from=#<Telegram::Bot::Types::User:0x00000002345420 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @chat=#<Telegram::Bot::Types::Chat:0x000000023452e0 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo", @type="private", @title=nil>, @date=1461193377, @text="1", @forward_from=nil, @forward_date=nil, @reply_to_message=nil, @entities=[], @audio=nil, @document=nil, @photo=[], @sticker=nil, @video=nil, @voice=nil, @caption=nil, @contact=nil, @location=nil, @venue=nil, @new_chat_member=nil, @left_chat_member=nil, @new_chat_title=nil, @new_chat_photo=[], @delete_chat_photo=nil, @group_chat_created=nil, @supergroup_chat_created=nil, @channel_chat_created=nil, @migrate_to_chat_id=nil, @migrate_from_chat_id=nil, @pinned_message=nil>
+D, [2016-04-21T02:03:06.500527 #22041] DEBUG -- : #<Telegram::Bot::Types::Message:0x0000000232c628 @message_id=6, @from=#<Telegram::Bot::Types::User:0x0000000232c5b0 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @chat=#<Telegram::Bot::Types::Chat:0x0000000232c498 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo", @type="private", @title=nil>, @date=1461193386, @text="/start", @forward_from=nil, @forward_date=nil, @reply_to_message=nil, @entities=[#<Telegram::Bot::Types::MessageEntity:0x0000000232c150 @type="bot_command", @offset=0, @length=6, @url=nil>], @audio=nil, @document=nil, @photo=[], @sticker=nil, @video=nil, @voice=nil, @caption=nil, @contact=nil, @location=nil, @venue=nil, @new_chat_member=nil, @left_chat_member=nil, @new_chat_title=nil, @new_chat_photo=[], @delete_chat_photo=nil, @group_chat_created=nil, @supergroup_chat_created=nil, @channel_chat_created=nil, @migrate_to_chat_id=nil, @migrate_from_chat_id=nil, @pinned_message=nil>
+E, [2016-04-21T02:03:06.500677 #22041] ERROR -- : undefined local variable or method `bot' for #<Bot:0x00000002323d20> (NameError)
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:34:in `process_message'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:23:in `process'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:9:in `block (2 levels) in initialize'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:40:in `block in fetch_updates'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:35:in `each'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:35:in `fetch_updates'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:27:in `listen'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:8:in `block in initialize'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:20:in `run'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:8:in `run'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:7:in `initialize'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:15:in `new'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:15:in `<top (required)>'
+-e:1:in `load'
+-e:1:in `<main>'
+E, [2016-04-21T02:05:07.296935 #22674] ERROR -- : undefined local variable or method `bot' for #<Bot:0x00000002ae29f8> (NameError)
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:34:in `process_message'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:23:in `process'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:9:in `block (2 levels) in initialize'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:40:in `block in fetch_updates'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:35:in `each'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:35:in `fetch_updates'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:27:in `listen'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:8:in `block in initialize'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:20:in `run'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:8:in `run'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:7:in `initialize'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:17:in `new'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:17:in `<top (required)>'
+-e:1:in `load'
+-e:1:in `<main>'
+E, [2016-04-21T02:05:14.017941 #22699] ERROR -- : undefined local variable or method `bot' for #<Bot:0x000000025cde40> (NameError)
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:34:in `process_message'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:23:in `process'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:9:in `block (2 levels) in initialize'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:40:in `block in fetch_updates'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:35:in `each'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:35:in `fetch_updates'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:27:in `listen'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:8:in `block in initialize'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:20:in `run'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:8:in `run'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:7:in `initialize'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:17:in `new'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:17:in `<top (required)>'
+-e:1:in `load'
+-e:1:in `<main>'
+I, [2016-04-21T02:06:52.773536 #23102]  INFO -- : Bot started
+D, [2016-04-21T02:06:52.933919 #23102] DEBUG -- : #<Telegram::Bot::Types::Message:0x0000000377ce20 @message_id=6, @from=#<Telegram::Bot::Types::User:0x0000000378b538 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @chat=#<Telegram::Bot::Types::Chat:0x00000003789d50 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo", @type="private", @title=nil>, @date=1461193386, @text="/start", @entities=[#<Telegram::Bot::Types::MessageEntity:0x00000003788298 @type="bot_command", @offset=0, @length=6, @url=nil>], @forward_from=nil, @forward_date=nil, @reply_to_message=nil, @audio=nil, @document=nil, @photo=[], @sticker=nil, @video=nil, @voice=nil, @caption=nil, @contact=nil, @location=nil, @venue=nil, @new_chat_member=nil, @left_chat_member=nil, @new_chat_title=nil, @new_chat_photo=[], @delete_chat_photo=nil, @group_chat_created=nil, @supergroup_chat_created=nil, @channel_chat_created=nil, @migrate_to_chat_id=nil, @migrate_from_chat_id=nil, @pinned_message=nil>
+E, [2016-04-21T02:06:52.934050 #23102] ERROR -- : undefined local variable or method `bot' for #<Bot:0x00000003727a38> (NameError)
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:34:in `process_message'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:23:in `process'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:9:in `block (2 levels) in initialize'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:40:in `block in fetch_updates'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:35:in `each'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:35:in `fetch_updates'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:27:in `listen'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:8:in `block in initialize'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:20:in `run'
+/home/hoofoo/.rvm/gems/ruby-2.2.3/bundler/gems/telegram-bot-ruby-07fa284e1402/lib/telegram/bot/client.rb:8:in `run'
+/home/hoofoo/RubymineProjects/raspbot/telegram/bot.rb:7:in `initialize'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:17:in `new'
+/home/hoofoo/RubymineProjects/raspbot/application.rb:17:in `<top (required)>'
+-e:1:in `load'
+-e:1:in `<main>'
+I, [2016-04-21T02:07:12.731284 #23175]  INFO -- : Bot started
+D, [2016-04-21T02:07:12.891490 #23175] DEBUG -- : #<Telegram::Bot::Types::Message:0x00000001996a50 @message_id=6, @from=#<Telegram::Bot::Types::User:0x00000002c12238 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo">, @chat=#<Telegram::Bot::Types::Chat:0x00000002c10a50 @id=55142102, @first_name="Смерть", @last_name="Неизбежна", @username="HooFoo", @type="private", @title=nil>, @date=1461193386, @text="/start", @entities=[#<Telegram::Bot::Types::MessageEntity:0x00000001984148 @type="bot_command", @offset=0, @length=6, @url=nil>], @forward_from=nil, @forward_date=nil, @reply_to_message=nil, @audio=nil, @document=nil, @photo=[], @sticker=nil, @video=nil, @voice=nil, @caption=nil, @contact=nil, @location=nil, @venue=nil, @new_chat_member=nil, @left_chat_member=nil, @new_chat_title=nil, @new_chat_photo=[], @delete_chat_photo=nil, @group_chat_created=nil, @supergroup_chat_created=nil, @channel_chat_created=nil, @migrate_to_chat_id=nil, @migrate_from_chat_id=nil, @pinned_message=nil>
+I, [2016-04-21T02:07:40.305163 #23279]  INFO -- : Bot started
+D, [2016-04-21T02:07:40.469068 #23279] DEBUG -- : --- !ruby/object:Telegram::Bot::Types::Message
+message_id: 6
+from: !ruby/object:Telegram::Bot::Types::User
+  id: 55142102
+  first_name: "Смерть"
+  last_name: "Неизбежна"
+  username: HooFoo
+chat: !ruby/object:Telegram::Bot::Types::Chat
+  id: 55142102
+  first_name: "Смерть"
+  last_name: "Неизбежна"
+  username: HooFoo
+  type: private
+  title: 
+date: 1461193386
+text: "/start"
+entities:
+- !ruby/object:Telegram::Bot::Types::MessageEntity
+  type: bot_command
+  offset: 0
+  length: 6
+  url: 
+forward_from: 
+forward_date: 
+reply_to_message: 
+audio: 
+document: 
+photo: []
+sticker: 
+video: 
+voice: 
+caption: 
+contact: 
+location: 
+venue: 
+new_chat_member: 
+left_chat_member: 
+new_chat_title: 
+new_chat_photo: []
+delete_chat_photo: 
+group_chat_created: 
+supergroup_chat_created: 
+channel_chat_created: 
+migrate_to_chat_id: 
+migrate_from_chat_id: 
+pinned_message: 
+
+I, [2016-04-21T02:07:52.141100 #23329]  INFO -- : Bot started
+D, [2016-04-21T02:07:52.320743 #23329] DEBUG -- : --- !ruby/object:Telegram::Bot::Types::Message
+message_id: 6
+from: !ruby/object:Telegram::Bot::Types::User
+  id: 55142102
+  first_name: "Смерть"
+  last_name: "Неизбежна"
+  username: HooFoo
+chat: !ruby/object:Telegram::Bot::Types::Chat
+  id: 55142102
+  first_name: "Смерть"
+  last_name: "Неизбежна"
+  username: HooFoo
+  type: private
+  title: 
+date: 1461193386
+text: "/start"
+entities:
+- !ruby/object:Telegram::Bot::Types::MessageEntity
+  type: bot_command
+  offset: 0
+  length: 6
+  url: 
+forward_from: 
+forward_date: 
+reply_to_message: 
+audio: 
+document: 
+photo: []
+sticker: 
+video: 
+voice: 
+caption: 
+contact: 
+location: 
+venue: 
+new_chat_member: 
+left_chat_member: 
+new_chat_title: 
+new_chat_photo: []
+delete_chat_photo: 
+group_chat_created: 
+supergroup_chat_created: 
+channel_chat_created: 
+migrate_to_chat_id: 
+migrate_from_chat_id: 
+pinned_message: 
+
+I, [2016-04-21T02:08:38.035315 #23532]  INFO -- : Bot started
+D, [2016-04-21T02:08:38.200732 #23532] DEBUG -- : --- !ruby/object:Telegram::Bot::Types::Message
+message_id: 6
+from: !ruby/object:Telegram::Bot::Types::User
+  id: 55142102
+  first_name: "Смерть"
+  last_name: "Неизбежна"
+  username: HooFoo
+chat: !ruby/object:Telegram::Bot::Types::Chat
+  id: 55142102
+  first_name: "Смерть"
+  last_name: "Неизбежна"
+  username: HooFoo
+  type: private
+  title: 
+date: 1461193386
+text: "/start"
+entities:
+- !ruby/object:Telegram::Bot::Types::MessageEntity
+  type: bot_command
+  offset: 0
+  length: 6
+  url: 
+forward_from: 
+forward_date: 
+reply_to_message: 
+audio: 
+document: 
+photo: []
+sticker: 
+video: 
+voice: 
+caption: 
+contact: 
+location: 
+venue: 
+new_chat_member: 
+left_chat_member: 
+new_chat_title: 
+new_chat_photo: []
+delete_chat_photo: 
+group_chat_created: 
+supergroup_chat_created: 
+channel_chat_created: 
+migrate_to_chat_id: 
+migrate_from_chat_id: 
+pinned_message: 
+
+I, [2016-04-21T02:09:06.646361 #23651]  INFO -- : Bot started
+D, [2016-04-21T02:09:06.811410 #23651] DEBUG -- : --- !ruby/object:Telegram::Bot::Types::Message
+message_id: 6
+from: !ruby/object:Telegram::Bot::Types::User
+  id: 55142102
+  first_name: "Смерть"
+  last_name: "Неизбежна"
+  username: HooFoo
+chat: !ruby/object:Telegram::Bot::Types::Chat
+  id: 55142102
+  first_name: "Смерть"
+  last_name: "Неизбежна"
+  username: HooFoo
+  type: private
+  title: 
+date: 1461193386
+text: "/start"
+entities:
+- !ruby/object:Telegram::Bot::Types::MessageEntity
+  type: bot_command
+  offset: 0
+  length: 6
+  url: 
+forward_from: 
+forward_date: 
+reply_to_message: 
+audio: 
+document: 
+photo: []
+sticker: 
+video: 
+voice: 
+caption: 
+contact: 
+location: 
+venue: 
+new_chat_member: 
+left_chat_member: 
+new_chat_title: 
+new_chat_photo: []
+delete_chat_photo: 
+group_chat_created: 
+supergroup_chat_created: 
+channel_chat_created: 
+migrate_to_chat_id: 
+migrate_from_chat_id: 
+pinned_message: 
+
